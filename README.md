@@ -7,23 +7,22 @@ The functionalities that need to be implemented are as follows:
 
 This entire project implements various core concepts of Java and helps to learn them with a hands on. The various Java concepts covered in this application are as follows:  
 
-Packages in Java 
-- 
-Bean Classes 
-- 
-Enumeration in Java 
-- 
-Getter and Setters 
-- 
-Constructors (Default and Parameterized)
--
-Method Overloading 
-- 
-Collections in Java 
-- 
-JDBC 
-- 
-Exception Handling 
--
-Log Management 
--
+-Packages in Java 
+
+-Bean Classes 
+
+-Enumeration in Java 
+
+-Getter and Setters 
+
+-Constructors (Default and Parameterized)
+
+-Method Overloading 
+
+-Collections in Java 
+
+-JDBC 
+
+-Exception Handling 
+
+-Log Management
