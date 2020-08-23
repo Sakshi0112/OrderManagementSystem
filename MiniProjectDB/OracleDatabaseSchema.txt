@@ -1,0 +1,52 @@
+
+SQL*Plus: Release 11.2.0.1.0 Production on Sun May 10 21:20:40 2020
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+Enter user-name: hr
+Enter password:
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL> SELECT table_name from user_tables;
+
+TABLE_NAME
+------------------------------
+COUNTRIES
+JOB_HISTORY
+EMPLOYEES
+JOBS
+DEPARTMENTS
+LOCATIONS
+REGIONS
+
+7 rows selected.
+
+
+SQL> CREATE TABLE Item_XXXX(item_no NUMBER(4) PRIMARY KEY,
+  2  description VARCHAR2(20),
+  3  category VARCHAR2(15),
+  4  price NUMBER(6,2),
+  5  qty NUMBER(3));
+
+Table created.
+
+
+SQL> CREATE TABLE Customer_XXXX(
+  2  custno VARCHAR2(10) PRIMARY KEY,
+  3  custname VARCHAR2(25),
+  4  address VARCHAR2(25));
+
+Table created.
+
+SQL> CREATE TABLE Order_XXXX(
+  2  orderno NUMBER(5) PRIMARY KEY,
+  3  item_no NUMBER(4) REFERENCES Item_XXXX(item_no),
+  4  ord_qty NUMBER(3),
+  5  ord_Date DATE DEFAULT SYSDATE,
+  6  custno VARCHAR2(10) REFERENCES Customer_XXXX(custno));
+
+Table created.
+

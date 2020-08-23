@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-12T09:27:42</date>
+  <millis>1589255862143</millis>
+  <sequence>0</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>WARNING</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>No orders are present in the database in order to display</message>
+</record>
+<record>
+  <date>2020-05-12T09:27:58</date>
+  <millis>1589255878802</millis>
+  <sequence>1</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>WARNING</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>No orders are present in the database in order to display</message>
+</record>
+<record>
+  <date>2020-05-12T09:28:23</date>
+  <millis>1589255903180</millis>
+  <sequence>2</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>WARNING</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>No orders are present in the database in order to display</message>
+</record>
+<record>
+  <date>2020-05-12T09:28:34</date>
+  <millis>1589255914303</millis>
+  <sequence>3</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>WARNING</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>No items present in the database for this category</message>
+</record>
+<record>
+  <date>2020-05-12T09:29:02</date>
+  <millis>1589255942789</millis>
+  <sequence>4</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>WARNING</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The item doesn't exist in the database thus the item can't be displayed</message>
+</record>
+<record>
+  <date>2020-05-12T09:29:31</date>
+  <millis>1589255971944</millis>
+  <sequence>5</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>INFO</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Successfully added 1 item to the database</message>
+</record>
+<record>
+  <date>2020-05-12T09:30:07</date>
+  <millis>1589256007415</millis>
+  <sequence>6</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>INFO</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The item description and price for 1 item are modified successfully</message>
+</record>
+<record>
+  <date>2020-05-12T09:30:20</date>
+  <millis>1589256020398</millis>
+  <sequence>7</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>INFO</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Sucessfully displayed the items based on category</message>
+</record>
+<record>
+  <date>2020-05-12T09:30:31</date>
+  <millis>1589256031633</millis>
+  <sequence>8</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>INFO</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Sucessfully displayed the items based on item number</message>
+</record>
+<record>
+  <date>2020-05-12T09:30:52</date>
+  <millis>1589256052281</millis>
+  <sequence>9</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>WARNING</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The item no specified does not exist in the database thus can't delete the item</message>
+</record>
+<record>
+  <date>2020-05-12T09:30:59</date>
+  <millis>1589256059222</millis>
+  <sequence>10</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>WARNING</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The item no specified does not exist in the database hence can't modify the item.</message>
+</record>
+<record>
+  <date>2020-05-12T09:31:08</date>
+  <millis>1589256068986</millis>
+  <sequence>11</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>INFO</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Successfully deleted 1 item from the table</message>
+</record>
+<record>
+  <date>2020-05-12T09:31:15</date>
+  <millis>1589256075847</millis>
+  <sequence>12</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>WARNING</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Since the item number doesn't exist in the database order can't be placed.</message>
+</record>
+<record>
+  <date>2020-05-12T09:32:21</date>
+  <millis>1589256141823</millis>
+  <sequence>14</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>WARNING</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>The quanity requested is greater than the quantity of items present so order can't be placed</message>
+</record>
+<record>
+  <date>2020-05-12T09:32:42</date>
+  <millis>1589256162889</millis>
+  <sequence>15</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>INFO</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Successfully placed an order for 1 requested item</message>
+</record>
+<record>
+  <date>2020-05-12T09:32:48</date>
+  <millis>1589256168590</millis>
+  <sequence>16</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>INFO</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Sucessfully displayed the all the order</message>
+</record>
+<record>
+  <date>2020-05-12T09:32:56</date>
+  <millis>1589256176282</millis>
+  <sequence>17</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>INFO</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Sucessfully displayed the order based on order number</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-12T09:36:01</date>
+  <millis>1589256361117</millis>
+  <sequence>0</sequence>
+  <logger>pgs.miniproject</logger>
+  <level>WARNING</level>
+  <class>ordersystem.ManageOrder</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Since the customer number doesn't exist in the database order can't be placed.</message>
+</record>
+</log>
